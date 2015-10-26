@@ -1,0 +1,42 @@
+﻿Build started 18/10/2015 16:03:41.
+     1>Project "C:\Users\Daniil\Downloads\ModSkelF14 (2)\ModSkelF14\modeler.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Ilocal\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sample.cpp
+         sample.cpp
+     1>sample.cpp(65): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(77): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(90): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(116): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(126): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(138): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(149): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(161): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(168): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(176): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(189): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(196): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(204): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(219): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(226): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(233): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>sample.cpp(265): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>sample.cpp(266): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>sample.cpp(268): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>sample.cpp(271): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>sample.cpp(272): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>sample.cpp(273): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>sample.cpp(274): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/modeler.exe" /INCREMENTAL:NO /NOLOGO local/lib/fltk.lib wsock32.lib opengl32.lib glu32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release/modeler.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Release\modeler.lib" /MACHINE:X86 /SAFESEH:NO .\Release/bitmap.obj
+         .\Release/camera.obj
+         .\Release/modelerapp.obj
+         .\Release/modelerdraw.obj
+         .\Release/modelerui.obj
+         .\Release/modelerview.obj
+         .\Release/sample.obj
+         modeler.vcxproj -> C:\Users\Daniil\Downloads\ModSkelF14 (2)\ModSkelF14\.\Release\modeler.exe
+     1>Done Building Project "C:\Users\Daniil\Downloads\ModSkelF14 (2)\ModSkelF14\modeler.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71
